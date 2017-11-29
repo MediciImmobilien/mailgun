@@ -18,6 +18,6 @@ defmodule Mailgun.Mixfile do
   end
 
   defp deps do
-    [{:poison, "~> 3.1",override: :true}, {:httpoison, "~> 0.11.0"}, {:plug, "~> 1.4"}]
+    [{:poison, "~> 3.1",override: :true}, {:httpoison, "~> 0.11.0"}, {:plug, "~> 1.3"}]
   end
 end
